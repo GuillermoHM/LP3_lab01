@@ -7,7 +7,7 @@ public class Main {
 		int vida, rp;
 		boolean fl=false;
 		vida=0;
-		Scanner sc = new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 		do {
 			vida++;
 			System.out.println("Vida: "+ vida +"\t¿Cuál es el número secreto?");
@@ -19,6 +19,6 @@ public class Main {
 			System.out.println("Adivinaste!!");
 		else
 			System.out.println("Has perdido");
+		sc.close();//se deben cerrar los recursos de entrada o salida
 	}
-
 }
