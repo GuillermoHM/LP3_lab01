@@ -12,7 +12,7 @@ public class Main {
 			vida++;
 			System.out.println("Vida: "+ vida +"\t¿Cuál es el número secreto?");
 			rp= sc.nextInt();
-			if(rp==1234)
+			if(rp==2152)//antigua clave:1234
 				fl= true;
 		}while(vida < 3 && !fl );
 		if (fl==true)
