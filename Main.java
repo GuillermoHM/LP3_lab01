@@ -16,7 +16,7 @@ public class Main {
 				fl= true;
 		}while(vida < 3 && !fl );
 		if (fl==true)
-			System.out.println("Adivinaste!!");
+			System.out.println("Adivinaste la clave y ganas un viaje a Canadá.");
 		else
 			System.out.println("Has perdido");
 		sc.close();//se deben cerrar los recursos de entrada o salida
