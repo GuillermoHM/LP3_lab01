@@ -9,7 +9,7 @@ public class Main {
 		vida=0;
 		Scanner sc= new Scanner(System.in);
 		do {
-			vida++;
+			vida = actualizarvida(vida);
 			System.out.println("Vida: "+ vida +"\t¿Cuál es el número secreto?");
 			rp= sc.nextInt();
 			if(rp==2152)//antigua clave:1234
@@ -20,5 +20,10 @@ public class Main {
 		else
 			System.out.println("Has perdido");
 		sc.close();//se deben cerrar los recursos de entrada o salida
+	}
+
+	public static int actualizarvida(int vida){
+		vida ++;
+		return vida;
 	}
 }
